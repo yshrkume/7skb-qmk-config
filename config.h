@@ -21,6 +21,5 @@
 #define QUICK_TAP_TERM 0
 #define TAPPING_TERM 180
 #define DEBOUNCE 5
-#define DEBOUNCE_TYPE \
-  sym_eager_pk  // Immediate response on press; debounce/wait for stability on
-                // release
+// Immediate response on press; debounce/wait for stability on release
+#define DEBOUNCE_TYPE sym_eager_pk
